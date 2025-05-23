@@ -1,14 +1,13 @@
 import Image from "next/image";
-import { socialLinks } from "./config";
 
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a target="_blank">
         <Image
-          src="/profile.png"
+          src="/profile.jpg"
           alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 shadow-md"
           unoptimized
           width={160}
           height={160}
@@ -16,48 +15,25 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium">
-        Portfolio template!
+        Hey!
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          I'm Megha, currently pursuing my Master's in Information Systems at the University of Maryland, College Park. 
+          I come from a background in Computer Science and Software Engineering, and I'm learning how to bridge the gap between technology, data, and strategic decision-making.
         </p>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          My work has been a mix of backend systems, data analytics, cloud infrastructure, and digital transformation. 
+          Along the way, I've delved into business areas like project planning, system architecture, and implementation strategy, the parts that make technology not just buildable, but truly usable.
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          Having worked previously at Amazon and Delvit Solutions, I've built software at scale and also worn multiple hats across fast-paced teams. 
+          Right now, I'm interning as a Software Engineer at a startup while working part-time as a Research Assistant under 
+          <a href='https://www.rhsmith.umd.edu/directory/anil-k-gupta' className="text-blue-600 hover:underline"> Prof.Anil Gupta</a>
+          , at UMD.
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
+          If you're into building things, solving data problems, or just geeking out on system design, I'd love to connect!
         </p>
       </div>
     </section>

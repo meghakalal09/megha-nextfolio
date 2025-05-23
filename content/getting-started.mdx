@@ -48,11 +48,9 @@ export const metaData = {
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/1tssirius", // Update with your Twitter URL
-  github: "https://github.com/1msirius/Nextfolio", // Update with your GitHub URL
-  instagram: "https://www.instagram.com/", // Update with your Instagram URL
-  linkedin: "https://www.linkedin.com/", // Update with your LinkedIn URL
-  email: "mailto:example@gmail.com", // Update with your email address
+  github: "https://github.com/meghakalal09", // Update with your GitHub URL
+  linkedin: "https://www.linkedin.com/in/megha-kalal-a6061a166/", // Update with your LinkedIn URL
+  email: "mailto:meghak@umd.edu", // Update with your email address
 };
 ```
 
@@ -61,7 +59,7 @@ export const socialLinks = {
 Adjust the routes to match your portfolio’s navigation in **app/sitemap.ts** file for SEO optimization:
 
 ```
-let routes = ["", "blog", "projects", "photos"].map((route) => ({ // Update routes according to your navbar
+let routes = ["", "blog", "projects"].map((route) => ({ // Update routes according to your navbar
   url: `${BaseUrl}${route}`,
   lastModified: new Date().toISOString().split("T")[0],
 }));
