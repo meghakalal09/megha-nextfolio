@@ -1,32 +1,50 @@
+// app/projects/page.tsx
 import Link from "next/link";
 import type { Metadata } from "next";
 import { projects } from "./project-data";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Nextfolio Projects",
+  description: "Selected projects by Megha Kalal",
 };
 
-export default function Projects() {
+export default function ProjectsPage() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium">Projects</h1>
-      <div>
-        {projects.map((project, index) => (
-          <Link
-            key={index}
-            href={project.url}
-            className="flex flex-col space-y-1 mb-5 transition-opacity duration-200 hover:opacity-80"
-            target="_blank"
-            rel="noopener noreferrer"
+
+      <div className="space-y-5">
+        {projects.map((p, idx) => (
+          <div
+            key={idx}
+            className="rounded-xl bg-neutral-50 dark:bg-neutral-900/40 p-4"
           >
-            <div className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-2">
-              <h2 className="text-black dark:text-white">{project.title}</h2>
-              <p className="text-neutral-600 dark:text-neutral-400">
-                {project.description}
-              </p>
+            {/* header row: title (with optional link) on left, date on right */}
+            <div className="flex items-start justify-between gap-3">
+              <h2 className="text-lg font-semibold leading-snug">
+                {p.url ? (
+                  <Link
+                    href={p.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    {p.title}
+                  </Link>
+                ) : (
+                  p.title
+                )}
+              </h2>
+              <span className="text-sm text-neutral-600 dark:text-neutral-400 whitespace-nowrap">
+                {p.date}
+              </span>
             </div>
-          </Link>
+
+            {/* short description */}
+            <p className="mt-2 text-[15px] leading-relaxed text-neutral-800 dark:text-neutral-200">
+              {p.description}
+            </p>
+          </div>
         ))}
       </div>
     </section>

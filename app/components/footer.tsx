@@ -4,7 +4,9 @@ import React from "react";
 import {
   FaGithub,
   FaLinkedinIn,
-  FaSpotify
+  FaSpotify,
+  FaLink,
+  FaUserTie,
 } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
 import { metaData, socialLinks } from "app/config";
@@ -22,18 +24,23 @@ function SocialLink({ href, icon: Icon }) {
 function SocialLinks() {
   return (
     <div className="flex justify-between items-center px-0 py-0 text-sm">
-  <small className="block lg:mt-4 mt-2 "><time>© Copyright {YEAR} Megha Kalal</time>{" "}</small>
+      <small className="block lg:mt-4 mt-2 ">
+        <time>© Copyright {YEAR} Megha Kalal</time>{" "}
+      </small>
 
-  <div className="text-sm text-right">
-    <div className="flex gap-4 justify-end mb-1 text-xl">
-      <SocialLink href={socialLinks.github} icon={FaGithub} />
-      <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
-      <SocialLink href={socialLinks.email} icon={TbMailFilled} />
-      <SocialLink href={socialLinks.spotify} icon={FaSpotify} />
+      <div className="text-sm text-right">
+        <div className="flex gap-4 justify-end mb-1 text-xl">
+          <SocialLink href={socialLinks.github} icon={FaGithub} />
+          <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
+          <SocialLink href={socialLinks.email} icon={TbMailFilled} />
+          <SocialLink href={socialLinks.spotify} icon={FaSpotify} />
+          <SocialLink href={socialLinks.topmate} icon={FaUserTie} />
+        </div>
+        <div>
+          <span>Drop me an email, or say hi on LinkedIn!</span>
+        </div>
+      </div>
     </div>
-    <div><span>Drop me an email, or say hi on LinkedIn!</span></div>
-  </div>
-</div>
   );
 }
 
