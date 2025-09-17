@@ -1,8 +1,14 @@
+// app/components/nav.tsx
 import Link from "next/link";
 import { ThemeSwitch } from "./theme-switch";
 import { metaData } from "../config";
 
-const navItems = {
+type NavItem = {
+  name: string;
+  external?: boolean;
+};
+
+const navItems: Record<string, NavItem> = {
   "/experience": { name: "Experience" },
   "/education": { name: "Education" },
   "/projects": { name: "Projects" },
@@ -18,9 +24,10 @@ export function Navbar() {
             {metaData.title}
           </Link>
         </div>
+
         <div className="flex flex-row gap-4 mt-6 md:mt-0 md:ml-auto items-center">
-          {Object.entries(navItems).map(([path, { name, external }]) =>
-            external ? (
+          {Object.entries(navItems).map(([path, item]) =>
+            item.external ? (
               <a
                 key={path}
                 href={path}
@@ -28,7 +35,7 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
               >
-                {name}
+                {item.name}
               </a>
             ) : (
               <Link
@@ -36,7 +43,7 @@ export function Navbar() {
                 href={path}
                 className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
               >
-                {name}
+                {item.name}
               </Link>
             )
           )}
