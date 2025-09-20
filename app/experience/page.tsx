@@ -31,16 +31,6 @@ export default function ExperiencePage() {
             <div className="mt-0.5 flex items-center justify-between gap-3">
               <div className="flex items-center gap-2">
                 <span className="font-medium">{item.company}</span>
-                {/* {item.url ? (
-                  <Link
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-blue-600 hover:underline"
-                  >
-                    (link)
-                  </Link>
-                ) : null} */}
               </div>
               <span className="text-sm text-neutral-600 dark:text-neutral-400 whitespace-nowrap">
                 {item.location}

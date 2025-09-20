@@ -57,33 +57,6 @@ export default function EducationPage() {
           </div>
         ))}
       </div>
-
-      {/* Research & Teaching */}
-      <h2 className="mt-10 mb-4 text-xl font-medium">Research & Teaching</h2>
-      <div className="space-y-4">
-        {researchTeaching.map((rt, i) => (
-          <div
-            key={i}
-            className="rounded-xl bg-neutral-50 dark:bg-neutral-900/40 p-4"
-          >
-            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
-              <h3 className="text-lg font-semibold">{rt.role}</h3>
-              {rt.dateRange ? (
-                <span className="text-neutral-600 dark:text-neutral-400">
-                  {rt.dateRange}
-                </span>
-              ) : null}
-            </div>
-            <p className="text-neutral-600 dark:text-neutral-400">{rt.org}</p>
-
-            <ul className="mt-2 list-disc pl-5 space-y-1 text-[15px] leading-relaxed">
-              {rt.bullets.map((b, idx) => (
-                <li key={idx}>{b}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
     </section>
   );
 }

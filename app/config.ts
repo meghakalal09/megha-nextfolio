@@ -1,10 +1,10 @@
 export const metaData = {
-  baseUrl: "https://megha-nextfolio.vercel.app/",
+  baseUrl: "https://www.meghakalal.me",
   title: "Megha Kalal",
-  name: "Megha",
+  name: "Megha Kalal",
   ogImage: "/opengraph-image.png",
   description:
-    "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.",
+    "Software Engineer with 3+ years of experience. | Information Systems Graduate Student @ University of Maryland.",
 };
 
 export const socialLinks = {
