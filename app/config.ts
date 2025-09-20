@@ -2,7 +2,7 @@ export const metaData = {
   baseUrl: "https://www.meghakalal.me",
   title: "Megha Kalal",
   name: "Megha Kalal",
-  ogImage: "/opengraph-image.png",
+  ogImage: "/opengraph-image.jpg",
   description:
     "Software Engineer with 3+ years of experience. | Information Systems Graduate Student @ University of Maryland.",
 };
