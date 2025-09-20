@@ -21,6 +21,12 @@ export const projects: ProjectItem[] = [
       "Built a live Kafka → PySpark pipeline with recommendation engine that adapted instantly to user activity, creating personalized suggestions within seconds. The system demonstrated how large-scale data pipelines can power seamless, real-time user experiences.",
   },
   {
+    title: "Code Similarity Detection System",
+    date: "April 2025",
+    description:
+      "Built an AI-powered code similarity detection system to automatically identify duplicate and functionally equivalent code across large repositories. Using CodeBERT embeddings to represent code semantics and a Siamese neural network for comparison, we trained and evaluated our model on benchmark datasets. This approach demonstrated how modern NLP techniques can be adapted to software engineering problems, streamlining code review and maintenance.",
+  },
+  {
     title: "SmartHire · AI-Powered Resume Screening",
     date: "Mar 2025",
     description:
