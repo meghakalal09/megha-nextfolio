@@ -21,11 +21,11 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-medium">Hey!</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I'm Megha, currently pursuing my Master's in Information Systems at
-          the University of Maryland, College Park. I come from a background in
-          Computer Science and Software Engineering, and I'm learning how to
-          bridge the gap between technology, data, and strategic
-          decision-making.
+          I'm Megha Kalal, currently pursuing my Master's in Information Systems
+          at the University of Maryland, College Park. I come from a background
+          in Computer Science, having completed my undergraduate studies at PES
+          University, Bangalore, and I'm learning how to bridge the gap between
+          technology, data, and strategic decision-making.
         </p>
         <p>
           My work has been a mix of backend systems, cloud infrastructure, data
@@ -34,10 +34,11 @@ export default function Page() {
           implementation strategy.
         </p>
         <p>
-          Having worked previously at Amazon and Delvit Solutions, I've built
-          software at scale and also worn multiple hats across fast-paced teams.
-          So if you're into building things, solving data problems, or just
-          geeking out on system design, I'd love to connect!
+          Having worked previously at Amazon and Delvit Solutions as a Software
+          Engineer, I've built software at scale and also worn multiple hats
+          across fast-paced teams. So if you're into building things, solving
+          data problems, or just geeking out on system design, I'd love to
+          connect!
         </p>
       </div>
 
