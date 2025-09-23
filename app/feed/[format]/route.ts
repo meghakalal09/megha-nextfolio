@@ -1,5 +1,4 @@
 import { Feed } from "feed";
-import { getBlogPosts } from "app/lib/posts";
 import { metaData } from "app/config";
 import { NextResponse } from "next/server";
 
@@ -45,26 +44,8 @@ export async function GET(
     },
   });
 
-  const allPosts = await getBlogPosts();
-
-  allPosts.forEach((post) => {
-    const postUrl = `${BaseUrl}blog/${post.slug}`;
-    const categories = post.metadata.tags
-      ? post.metadata.tags.split(",").map((tag) => tag.trim())
-      : [];
-
-    feed.addItem({
-      title: post.metadata.title,
-      id: postUrl,
-      link: postUrl,
-      description: post.metadata.summary,
-      category: categories.map((tag) => ({
-        name: tag,
-        term: tag,
-      })),
-      date: new Date(post.metadata.publishedAt),
-    });
-  });
+  // 🔴 Removed blog posts
+  // If you want, you could add portfolio projects instead here
 
   const responseMap: Record<string, { content: string; contentType: string }> =
     {

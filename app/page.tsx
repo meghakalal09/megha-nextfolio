@@ -98,7 +98,7 @@ export default function Page() {
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              3x recipient of CNR Rao Merit Scholarship.
+              3x recipient of Prof. CNR Rao Merit Scholarship.
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>

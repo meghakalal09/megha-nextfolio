@@ -36,7 +36,7 @@ export const education: EducationItem[] = [
     degree: "Bachelor of Science in Computer Engineering",
     gpa: "9.1/10.00",
     dateRange: "Aug 2016 - May 2020",
-    honors: ["CNR Rao Merit Scholarship (3-time recipient)."],
+    honors: ["Prof. CNR Rao Merit Scholarship (3-time recipient)."],
     coursework: [
       "Distributed Systems",
       "Data Structures",
