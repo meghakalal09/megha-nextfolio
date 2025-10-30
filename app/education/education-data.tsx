@@ -12,10 +12,10 @@ export interface EducationItem {
 
 export const education: EducationItem[] = [
   {
-    school: "University of Maryland, College Park",
+    school: "University of Maryland",
     location: "College Park, MD",
-    degree: "Master of Science in Information Systems",
-    gpa: "3.97/4.00",
+    degree: "MS in Information Systems",
+    gpa: "3.95/4.00",
     dateRange: "Aug 2024 - Dec 2025",
     honors: [
       "Terrapin Scholarship Recipient for academic and professional excellence.",
@@ -33,7 +33,7 @@ export const education: EducationItem[] = [
   {
     school: "PES University",
     location: "Bangalore, India",
-    degree: "Bachelor of Science in Computer Engineering",
+    degree: "B.Tech in Computer Engineering",
     gpa: "9.1/10.00",
     dateRange: "Aug 2016 - May 2020",
     honors: ["Prof. CNR Rao Merit Scholarship (3-time recipient)."],

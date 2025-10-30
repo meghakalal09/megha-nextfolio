@@ -30,7 +30,7 @@ export default function Page() {
         <p>
           My work has been a mix of backend systems, cloud infrastructure, data
           analytics, and digital transformation. Along the way, I've delved into
-          business areas like project planning, system architecture, and
+          project execution areas like planning, system architecture, and
           implementation strategy.
         </p>
         <p>
@@ -56,8 +56,7 @@ export default function Page() {
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Teaching Assistant under Dr. Bharti Motwani (HDFS, Spark, Neo4j,
-              MongoDB, MapReduce).
+              Teaching Assistant under Dr. Bharti Motwani.
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
@@ -73,7 +72,7 @@ export default function Page() {
           <div className="space-y-2 pb-6 border-l pl-4 border-neutral-200 dark:border-neutral-700">
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Started M.S. in Information Systems at Univerity of Maryland.
+              Started M.S. in Information Systems at University of Maryland.
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
@@ -86,7 +85,7 @@ export default function Page() {
           <div className="space-y-2 pb-6 border-l pl-4 border-neutral-200 dark:border-neutral-700">
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Software Development Engineer I at Amazon.
+              Software Engineer at Amazon.
             </div>
           </div>
 
@@ -94,7 +93,7 @@ export default function Page() {
           <div className="space-y-2 pb-6 border-l pl-4 border-neutral-200 dark:border-neutral-700">
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Converted Delvit Solutions internship to full-time.
+              Converted Delvit Solutions internship to a full-time offer.
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
@@ -103,7 +102,7 @@ export default function Page() {
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
               Graduated PES University (First className with Distinction, GPA
-              9.2/10).
+              9.1/10).
             </div>
           </div>
 

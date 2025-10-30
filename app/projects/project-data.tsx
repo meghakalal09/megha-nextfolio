@@ -15,6 +15,18 @@ export const projects: ProjectItem[] = [
       "Developed a strategic simulation platform to model how diseases spread and how supply-chain disruptions unfold in real time. The system supported national defense teams in testing different scenarios, exploring outcomes, and planning responses more effectively.",
   },
   {
+    title: "India's Gender Divide and the Rising Voice Against Violence",
+    date: "Oct 2025",
+    description:
+      "Designed an interactive Tableau story analyzing gender disparity and crimes against women across Indian states. Integrated demographic, literacy, and population data with crime statistics to uncover regional inequalities and post-2012 reporting shifts.",
+  },
+  {
+    title: "Strategic Simulation System · National Defence University",
+    date: "Dec 2025",
+    description:
+      "Developed a strategic simulation platform to model how diseases spread and how supply-chain disruptions unfold in real time. The system supported national defense teams in testing different scenarios, exploring outcomes, and planning responses more effectively.",
+  },
+  {
     title: "Real-Time Recommendation System using Kafka",
     date: "May 2025",
     description:

@@ -33,7 +33,6 @@ function SocialLinks() {
           <SocialLink href={socialLinks.github} icon={FaGithub} />
           <SocialLink href={socialLinks.linkedin} icon={FaLinkedinIn} />
           <SocialLink href={socialLinks.email} icon={TbMailFilled} />
-          <SocialLink href={socialLinks.topmate} icon={FaUserTie} />
           <SocialLink href={socialLinks.spotify} icon={FaSpotify} />
         </div>
         <div>
