@@ -15,6 +15,12 @@ export const projects: ProjectItem[] = [
       "Developed a strategic simulation platform to model how diseases spread and how supply-chain disruptions unfold in real time. The system supported national defense teams in testing different scenarios, exploring outcomes, and planning responses more effectively.",
   },
   {
+    title: "InsightLoop - Slack-Native AI Agent",
+    date: "Nov 2025",
+    description:
+      "Developed a Slack‑integrated AI agent to automate weekly performance tracking for growth and operations teams by detecting KPI anomalies, correlating product rollouts from Jira, and delivering actionable insights.",
+  },
+  {
     title: "India's Gender Divide and the Rising Voice Against Violence",
     date: "Oct 2025",
     description:
