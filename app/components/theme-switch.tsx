@@ -11,7 +11,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   return (
     <NextThemesProvider
       attribute="class"
-      defaultTheme="dark"
+      defaultTheme="light"
       enableSystem
       {...props}
     >
@@ -24,7 +24,7 @@ export const ThemeSwitch: React.FC = () => {
   const { setTheme } = useTheme();
   const [mounted, setMounted] = React.useState(false);
   const [currentTheme, setCurrentTheme] = React.useState<"light" | "dark">(
-    "dark"
+    "light"
   );
 
   const getColorPreference = (): "light" | "dark" => {
@@ -33,9 +33,11 @@ export const ThemeSwitch: React.FC = () => {
       if (storedPreference) {
         return storedPreference as "light" | "dark";
       }
-      return "dark";
+      return window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
     }
-    return "dark";
+    return "light";
   };
 
   const reflectPreference = (theme: "light" | "dark") => {
