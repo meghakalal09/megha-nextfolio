@@ -21,11 +21,11 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-medium">Hey!</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I'm Megha Kalal, currently pursuing my Master's in Information Systems
-          at the University of Maryland, College Park. I come from a background
-          in Computer Science, having completed my undergraduate studies at PES
-          University, Bangalore, and I'm learning how to bridge the gap between
-          technology, data, and strategic decision-making.
+          I'm Megha Kalal, a recent graduate with a Master's in Information
+          Systems from the University of Maryland, College Park. I come from a
+          background in Computer Science, having completed my undergraduate
+          studies at PES University, Bangalore, and I'm learning how to bridge
+          the gap between technology, data, and strategic decision-making.
         </p>
         <p>
           My work has been a mix of backend systems, cloud infrastructure, data
@@ -52,7 +52,7 @@ export default function Page() {
           <div className="space-y-2 pb-6 border-l pl-4 border-neutral-200 dark:border-neutral-700">
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Maintaining a 3.97 GPA; expecting graduation in Dec 2025.
+              Graduated with a Master's in Information Systems, GPA 3.96/4.00
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
@@ -72,12 +72,12 @@ export default function Page() {
           <div className="space-y-2 pb-6 border-l pl-4 border-neutral-200 dark:border-neutral-700">
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Started M.S. in Information Systems at University of Maryland.
+              Awarded Terrapin Scholarship for academic and professional
+              excellence.
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Awarded Terrapin Scholarship for academic and professional
-              excellence.
+              Started M.S. in Information Systems at University of Maryland.
             </div>
           </div>
 

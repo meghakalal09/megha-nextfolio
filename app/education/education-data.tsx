@@ -15,7 +15,7 @@ export const education: EducationItem[] = [
     school: "University of Maryland",
     location: "College Park, MD",
     degree: "MS in Information Systems",
-    gpa: "3.95/4.00",
+    gpa: "3.96/4.00",
     dateRange: "Aug 2024 - Dec 2025",
     honors: [
       "Terrapin Scholarship Recipient for academic and professional excellence.",

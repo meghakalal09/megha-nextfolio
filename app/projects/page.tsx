@@ -41,9 +41,10 @@ export default function ProjectsPage() {
             </div>
 
             {/* short description */}
-            <p className="mt-2 text-[15px] leading-relaxed text-neutral-800 dark:text-neutral-200">
-              {p.description}
-            </p>
+            <p
+              className="mt-2 text-[15px] leading-relaxed text-neutral-800 dark:text-neutral-200"
+              dangerouslySetInnerHTML={{ __html: p.description }}
+            />
           </div>
         ))}
       </div>

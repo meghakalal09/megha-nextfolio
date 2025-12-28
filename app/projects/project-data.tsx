@@ -12,7 +12,7 @@ export const projects: ProjectItem[] = [
     title: "Strategic Simulation System · National Defence University",
     date: "Dec 2025",
     description:
-      "Developed a strategic simulation platform to model how diseases spread and how supply-chain disruptions unfold in real time. The system supported national defense teams in testing different scenarios, exploring outcomes, and planning responses more effectively.",
+      "Designed and developed a strategic simulation platform in collaboration with the National Defense University to model disease outbreaks and supply chain disruptions across countries. <br>The tool empowered adjudicators to conduct real-time, turn-based exercises, test response strategies, and generate reports for post-simulation analysis. <br>This project demonstrated the power of digital simulations in training teams for high-stakes decision-making environments.",
   },
   {
     title: "InsightLoop - Slack-Native AI Agent",
@@ -30,31 +30,31 @@ export const projects: ProjectItem[] = [
     title: "Real-Time Recommendation System using Kafka",
     date: "May 2025",
     description:
-      "Built a live Kafka → PySpark pipeline with recommendation engine that adapted instantly to user activity, creating personalized suggestions within seconds. The system demonstrated how large-scale data pipelines can power seamless, real-time user experiences.",
+      "Engineered a real-time, low-latency system Kafka-based pipeline streaming ratings from UI to a PySpark backend, deploying the app on cloud with a live feedback loop for personalization. Handling 60+ simultaneous ratings with instant recommendations, validating scalability.",
   },
   {
     title: "Code Similarity Detection System",
     date: "April 2025",
     description:
-      "Built an AI-powered code similarity detection system to automatically identify duplicate and functionally equivalent code across large repositories. Using CodeBERT embeddings to represent code semantics and a Siamese neural network for comparison, we trained and evaluated our model on benchmark datasets. This approach demonstrated how modern NLP techniques can be adapted to software engineering problems, streamlining code review and maintenance.",
+      "Built an AI-powered code similarity detection system to automatically identify duplicate and functionally equivalent code across large repositories. <br>Using CodeBERT embeddings to represent code semantics and a Siamese neural network for comparison, we trained and evaluated our model on benchmark datasets. <br>This approach demonstrated how modern NLP techniques can be adapted to software engineering problems, streamlining code review and maintenance.",
   },
   {
     title: "SmartHire · AI-Powered Resume Screening",
     date: "Mar 2025",
     description:
-      "Designed an AI-powered hiring assistant that automatically matched resumes to job descriptions, summarized candidate profiles, and even generated interview questions. Implemented BERT-based classification, cosine-similarity matching, and LLaMA agents.",
+      "Engineered a modular AI pipeline for resume classification, job matching, summarization, and interview question generation, leveraging transformer-based language models and semantic similarity to enable scalable, context-aware candidate evaluation.",
   },
   {
     title: "Tracking Federal Spending Transparency",
     date: "Feb 2025",
     description:
-      "Created an interactive platform to analyze and visualize U.S. federal spending across agencies. The tool highlighted unusual spending patterns, helping stakeholders uncover inefficiencies and bring more accountability into how public funds are used.",
+      "Engineered an interactive data platform to analyze and visualize federal spending patterns, and designed a custom anomaly scoring framework to identify high-risk fund allocation discrepancies across 30+ agencies; insights were presented to USAspending.gov leadership.",
   },
   {
     title: "Starbucks Digital Transformation Strategy",
     date: "Dec 2024",
     description:
-      "Analyzed Starbucks’ digital ecosystem-including its mobile app, AI-driven personalization, and supply chain systems-to identify gaps in customer experience, employee workflows, and global expansion. Designed a transformation roadmap with cloud-native app upgrades, blockchain-enabled transparency, and AI-powered scheduling to enhance engagement, efficiency, and scalability ",
+      "Developed a digital transformation strategy for Starbucks by analyzing its current digital landscape, including mobile app adoption, AI-driven personalization (Deep Brew), and global supply chain systems. <br>Applied frameworks such as business outcomes mapping, reimagined process flows, and a three-phase transformation roadmap. <br>Proposed initiatives including Smart Queue management, blockchain-enabled supply chain transparency, AI-driven workforce scheduling, and regional digital expansion, enhancing engagement, operational efficiency, and scalability.",
   },
   {
     title: "D-ott",
