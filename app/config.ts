@@ -13,4 +13,5 @@ export const socialLinks = {
   email: "mailto:meghak@umd.edu",
   spotify:
     "https://open.spotify.com/user/yv445zpk7m7kfkvflvs04sz3p?si=d7442eba3386465c",
+  letterboxd: "https://letterboxd.com/inglorious_hans/",
 };
