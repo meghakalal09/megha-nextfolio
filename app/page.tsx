@@ -52,7 +52,7 @@ export default function Page() {
           <div className="space-y-2 pb-6 border-l pl-4 border-neutral-200 dark:border-neutral-700">
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>
-              Graduated with a Master's in Information Systems, GPA 3.96/4.00
+              Graduated with a Master's in Information Systems, GPA 3.97/4.00
             </div>
             <div className="relative">
               <span className="absolute -left-[22px] top-2 h-2 w-2 rounded-full bg-neutral-400"></span>

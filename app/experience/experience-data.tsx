@@ -84,7 +84,7 @@ export const experience: Experience[] = [
     bullets: [
       "Architected modular microservices for payment management with React Router and Redux Toolkit, reducing page load times by 20%.",
       "Built SQL/BigQuery pipelines to run performance debugging and root-cause analysis on 1M+ rows, surfacing key funnel drop-offs.",
-      "Collaborated with 3 cross-functional teams to migrate analytical infrastructure from GCP to AWS, reducing data extraction latency by 30%.",
+      "Collaborated with 3 cross-functional teams to migrate core infrastructure from GCP to AWS, reducing data extraction latency by 30%.",
       "Developed 30+ user interface screens using React.js and JavaScript and 20+ custom REST APIs on the Flask framework, hosted on Google Cloud for the company's self-checkout project.",
       "Integrated behavioral analytics via Google Analytics to uncover engagement patterns, segment users, and inform data-backed marketing interventions.",
     ],
