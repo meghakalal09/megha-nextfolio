@@ -44,7 +44,7 @@ export default function Page() {
 
       {/* Timeline */}
 
-      <section className="max-w-3xl mx-auto">
+      {/* <section className="max-w-3xl mx-auto">
         <h2 className="mt-12 mb-6 text-2xl font-semibold">Timeline</h2>
 
         <div className="grid grid-cols-[96px,1fr] gap-x-6">
@@ -114,7 +114,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 }
