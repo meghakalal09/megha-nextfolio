@@ -10,7 +10,7 @@ export const metaData = {
 export const socialLinks = {
   github: "https://github.com/meghakalal09",
   linkedin: "https://www.linkedin.com/in/megha-kalal-a6061a166/",
-  email: "mailto:meghak@umd.edu",
+  email: "mailto:meghakalal036@gmail.com",
   spotify:
     "https://open.spotify.com/user/yv445zpk7m7kfkvflvs04sz3p?si=d7442eba3386465c",
   // letterboxd: "https://letterboxd.com/inglorious_hans/",
