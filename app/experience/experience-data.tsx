@@ -38,9 +38,9 @@ export const experience: Experience[] = [
     location: "New York, NY",
     dateRange: "May 2025 - Aug 2025",
     bullets: [
-      "Developed a high-volume Puppeteer scraper extracting 30K+ speaker profiles, integrating OpenAI APIs to automate personalized outreach workflows and scale engagement.",
-      "Deployed containerized application on AWS EC2 via GitHub Actions CI/CD pipeline, with Jest testing and CloudWatch monitoring.",
-      "Led development of speaker portal (MERN stack), implementing multi-step registration, JWT-based authentication, S3 resume/media uploads, and secure RBAC for speakers and admins.",
+      "Built a user management portal (MERN stack, JWT auth, RBAC) for invited speakers to onboard, manage profiles, and register for events, replacing ad-hoc coordination.",
+      "Developed a speaker outreach pipeline using Puppeteer and OpenAI APIs, extracting 30K+ profiles and automating ~70% of outbound workflows.",
+      "Deployed containerized applications on Azure VMs via GitHub Actions CI/CD pipelines, automating Docker builds and Jest testing.",
     ],
   },
   {
@@ -58,8 +58,8 @@ export const experience: Experience[] = [
     location: "Bangalore, India",
     dateRange: "Aug 2023 - Apr 2024",
     bullets: [
-      "Built a lightweight POS & inventory system with real-time reconciliation, improving sales accuracy across 200+ transactions/day.",
-      "Automated vendor reporting via Python scripts to trigger daily summaries, reducing manual operations by 60%.",
+      "Automated end-to-end operational workflows, including vendor reporting and daily summary emails, via Python scripts, Cron jobs, and SMTP, cutting staff workload by ~60%.",
+      "Designed and built a custom POS and inventory system for a retail business using React, Node.js, and PostgreSQL, powering reconciliation for 300+ daily transactions.",
     ],
   },
   {
@@ -68,12 +68,12 @@ export const experience: Experience[] = [
     location: "Bangalore, India",
     dateRange: "Mar 2021 - Apr 2023",
     bullets: [
-      "Integrated auth-enabled APIs in Spring Boot with downstream services; implemented caching, query optimizations that reduced response time by 30%, ensuring scalability.",
-      "Developed cloud-native ticketing and alerting workflows with AWS CloudWatch, Lambda, and SNS improving SLA compliance by 15%.",
-      "Created multi-tenant dashboards in AWS QuickSight with an Angular UI and Redshift ingestion, enabling insights for 300+ merchants.",
-      "Designed scalable DynamoDB schemas and data migration scripts to power 50+ monthly merchant onboardings.",
-      "Led a team of 12 in the agile development of an internal knowledge Wiki, reducing new-hire onboarding time by 25%.",
-      "Conducted code/design reviews, on-call debugging of production issues and performance tuning, ensuring reliability of distributed systems.",
+      "Built merchant onboarding and storefront tools for Amazon SmartCommerce using Spring Boot, REST APIs, and cloud-native stack enabling thousands of SMB sellers to launch online stores.",
+      "Implemented multi-tenant dashboards by embedding AWS QuickSight into an Angular-based internal portal, with Redshift data ingestion, enabling reporting for 300+ active merchants.",
+      "Developed alerting/ticketing workflows in AWS CloudWatch, Lambda, SNS, and Prometheus exporters, improving SLA compliance by 15%.",
+      "Designed DynamoDB NoSQL data models and migration scripts (Bash, SQL); optimized high-volume read/write paths reducing latency to ~160ms.",
+      "Led the agile development of an internal wiki, improving cross-team communication and reducing new-hire onboarding time by 25%.",
+      "Conducted code/design reviews, on-call debugging, and JVM-based performance tuning, ensuring high reliability across distributed microservices.",
     ],
   },
   {
@@ -82,9 +82,9 @@ export const experience: Experience[] = [
     location: "Bangalore, India",
     dateRange: "Jan 2020 - Feb 2021",
     bullets: [
-      "Architected modular microservices for payment management with React Router and Redux Toolkit, reducing page load times by 20%.",
-      "Built SQL/BigQuery pipelines to run performance debugging and root-cause analysis on 1M+ rows, surfacing key funnel drop-offs.",
-      "Collaborated with 3 cross-functional teams to migrate core infrastructure from GCP to AWS, reducing data extraction latency by 30%.",
+      "Boosted user retention by 15% by building SQL-based pipelines on Google BigQuery for anomaly detection and root-cause analysis across 1M+ rows, surfacing key funnel drop-offs.",
+      "Developed a React-based architecture for payment workflows using React Router and Redux Toolkit, reducing page load time by 20%.",
+      "Collaborated with three cross-functional teams to migrate cloud infrastructure and data from GCP to AWS, decreasing system downtime by ~40% through coordinated rollout.",
       "Developed 30+ user interface screens using React.js and JavaScript and 20+ custom REST APIs on the Flask framework, hosted on Google Cloud for the company's self-checkout project.",
       "Integrated behavioral analytics via Google Analytics to uncover engagement patterns, segment users, and inform data-backed marketing interventions.",
     ],
